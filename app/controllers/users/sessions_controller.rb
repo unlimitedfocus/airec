@@ -1,9 +1,3 @@
 class Users::SessionsController < Devise::SessionsController
-  # def new
-  #   super
-  # end
-
-  # def create
-  #   super
-  # end
+  respond_to :json
 end

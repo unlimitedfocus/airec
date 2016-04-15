@@ -1,9 +1,3 @@
 class Users::RegistrationsController < Devise::RegistrationsController
-  # def new
-  #   super
-  # end
-
-  # def create
-  #   super
-  # end
+  respond_to :json
 end
